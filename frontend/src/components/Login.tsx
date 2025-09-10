@@ -16,11 +16,11 @@ export default function Login() {
         <form className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Email
+              Email or Useraname
             </label>
             <input
               type="email"
-              placeholder="Enter your email"
+              placeholder="Enter your Email or Username"
               className="mt-1 w-full rounded-lg border border-gray-300 p-3 text-sm shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
             />
           </div>
@@ -51,18 +51,7 @@ export default function Login() {
           <hr className="flex-1 border-gray-300" />
         </div>
 
-        {/* Google Login */}
-        <button
-          type="button"
-          className="flex w-full items-center justify-center gap-3 rounded-lg border border-gray-300 bg-white py-2 text-gray-700 font-medium shadow-sm transition hover:bg-gray-50 hover:shadow-md"
-        >
-          <img
-            src="https://www.svgrepo.com/show/355037/google.svg"
-            alt="Google logo"
-            className="h-5 w-5"
-          />
-          Continue with Google
-        </button>
+
 
         {/* Footer */}
         <p className="mt-6 text-center text-sm text-gray-500">
